@@ -30,6 +30,7 @@
     - [KprobeBpfMap](#tetragon-KprobeBpfMap)
     - [KprobeCapability](#tetragon-KprobeCapability)
     - [KprobeCred](#tetragon-KprobeCred)
+    - [KprobeDentry](#tetragon-KprobeDentry)
     - [KprobeFile](#tetragon-KprobeFile)
     - [KprobeLinuxBinprm](#tetragon-KprobeLinuxBinprm)
     - [KprobeNetDev](#tetragon-KprobeNetDev)
@@ -595,6 +596,7 @@ found.
 | bpf_cmd_arg | [BpfCmd](#tetragon-BpfCmd) |  |  |
 | syscall_id | [SyscallId](#tetragon-SyscallId) |  |  |
 | sockaddr_arg | [KprobeSockaddr](#tetragon-KprobeSockaddr) |  |  |
+| dentry_arg | [KprobeDentry](#tetragon-KprobeDentry) |  |  |
 | label | [string](#string) |  |  |
 
 
@@ -665,6 +667,21 @@ found.
 | permitted | [CapabilitiesType](#tetragon-CapabilitiesType) | repeated |  |
 | effective | [CapabilitiesType](#tetragon-CapabilitiesType) | repeated |  |
 | inheritable | [CapabilitiesType](#tetragon-CapabilitiesType) | repeated |  |
+
+
+
+
+
+
+<a name="tetragon-KprobeDentry"></a>
+
+### KprobeDentry
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| name | [string](#string) |  |  |
 
 
 
