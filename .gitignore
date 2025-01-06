@@ -10,6 +10,7 @@ lib/*
 /tetragon-metrics-docs
 /parsertest
 /checkerpc
+/build
 observer.test
 go-tests
 fgs-bench-rootfs*

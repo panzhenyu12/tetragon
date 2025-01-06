@@ -444,6 +444,7 @@ message KprobeArgument {
 	KprobeNetDev net_dev_arg = 27;
 	BpfCmd bpf_cmd_arg = 28;
 	SyscallId syscall_id = 29;
+    KprobeDentry dentry_arg = 30;
     }
     string label = 18;
 }
@@ -692,4 +693,8 @@ message StackTraceEntry {
     string symbol = 3;
     // module path for user space addresses.
     string module = 4;
+}
+
+message KprobeDentry {
+    string name = 1;
 }
